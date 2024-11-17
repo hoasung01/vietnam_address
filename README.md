@@ -62,7 +62,7 @@ ward.province   # Returns associated province
 ```
 
 ### Data Structure
-The data for the provinces, districts, and wards is organized in a directory structure based on the location (province/city). The default data path is Gem.loaded_specs['vietnam_address'].gem_dir + '/data', but it can be customized using the configuration.
+The data for the provinces, districts, and wards is organized in a directory structure based on the location `(province/city)`. The default data path is `Gem.loaded_specs['vietnam_address'].gem_dir + '/data'`, but it can be customized using the configuration.
 
 ```
 data
