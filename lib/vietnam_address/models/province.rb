@@ -1,7 +1,6 @@
-# lib/vietnam_address/models/province.rb
 module VietnamAddress
   class Province
-    attr_reader :id, :name, :code, :location
+    attr_reader :id, :name, :code, :slug
 
     class << self
       def all
@@ -16,24 +15,24 @@ module VietnamAddress
         all.find { |province| province.name == name }
       end
 
+      def find_by_slug(slug)
+        all.find { |province| province.slug == slug }
+      end
+
       private
 
       def load_provinces
-        data = read_json_file('provinces.json')
+        data = read_json_file("#{VietnamAddress.configuration.data_path}/provinces.json")
         data.map { |attrs| new(attrs) }
       rescue JSON::ParserError => e
-        raise Error, "Invalid JSON in provinces.json: #{e.message}"
+        raise "Invalid JSON in provinces.json: #{e.message}"
       rescue Errno::ENOENT
-        raise Error, "provinces.json not found in #{data_path}"
+        raise "provinces.json not found in #{VietnamAddress.configuration.data_path}"
       end
 
       def read_json_file(filename)
-        file_path = File.join(data_path, filename)
+        file_path = filename
         JSON.parse(File.read(file_path))
-      end
-
-      def data_path
-        VietnamAddress.configuration.data_path
       end
     end
 
@@ -41,11 +40,11 @@ module VietnamAddress
       @id = attributes['id']
       @name = attributes['name']
       @code = attributes['code']
-      @location = attributes['location'] || attributes['name'].parameterize
+      @slug = attributes['slug']
     end
 
     def districts
-      @districts ||= District.load_districts(location)
+      @districts ||= District.load_districts(slug)
     end
   end
 end
