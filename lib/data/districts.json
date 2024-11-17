@@ -1,0 +1,182 @@
+[
+  {
+    "id": "001",
+    "name": "Ba Đình",
+    "code": "BD",
+    "province_id": "01"
+  },
+  {
+    "id": "002",
+    "name": "Hoàn Kiếm",
+    "code": "HK",
+    "province_id": "01"
+  },
+  {
+    "id": "003",
+    "name": "Tây Hồ",
+    "code": "TH",
+    "province_id": "01"
+  },
+  {
+    "id": "004",
+    "name": "Long Biên",
+    "code": "LB",
+    "province_id": "01"
+  },
+  {
+    "id": "005",
+    "name": "Cầu Giấy",
+    "code": "CG",
+    "province_id": "01"
+  },
+  {
+    "id": "006",
+    "name": "Đống Đa",
+    "code": "DD",
+    "province_id": "01"
+  },
+  {
+    "id": "007",
+    "name": "Hai Bà Trưng",
+    "code": "HBT",
+    "province_id": "01"
+  },
+  {
+    "id": "008",
+    "name": "Hoàng Mai",
+    "code": "HM",
+    "province_id": "01"
+  },
+  {
+    "id": "009",
+    "name": "Thanh Xuân",
+    "code": "TX",
+    "province_id": "01"
+  },
+  {
+    "id": "016",
+    "name": "Sóc Sơn",
+    "code": "SS",
+    "province_id": "01"
+  },
+  {
+    "id": "017",
+    "name": "Đông Anh",
+    "code": "DA",
+    "province_id": "01"
+  },
+  {
+    "id": "018",
+    "name": "Gia Lâm",
+    "code": "GL",
+    "province_id": "01"
+  },
+  {
+    "id": "019",
+    "name": "Nam Từ Liêm",
+    "code": "NTL",
+    "province_id": "01"
+  },
+  {
+    "id": "020",
+    "name": "Thanh Trì",
+    "code": "TT",
+    "province_id": "01"
+  },
+  {
+    "id": "021",
+    "name": "Bắc Từ Liêm",
+    "code": "BTL",
+    "province_id": "01"
+  },
+  {
+    "id": "250",
+    "name": "Mê Linh",
+    "code": "ML",
+    "province_id": "01"
+  },
+  {
+    "id": "268",
+    "name": "Hà Đông",
+    "code": "HD",
+    "province_id": "01"
+  },
+  {
+    "id": "269",
+    "name": "Sơn Tây",
+    "code": "ST",
+    "province_id": "01"
+  },
+  {
+    "id": "271",
+    "name": "Ba Vì",
+    "code": "BV",
+    "province_id": "01"
+  },
+  {
+    "id": "272",
+    "name": "Phúc Thọ",
+    "code": "PT",
+    "province_id": "01"
+  },
+  {
+    "id": "273",
+    "name": "Đan Phượng",
+    "code": "DP",
+    "province_id": "01"
+  },
+  {
+    "id": "274",
+    "name": "Hoài Đức",
+    "code": "HD",
+    "province_id": "01"
+  },
+  {
+    "id": "275",
+    "name": "Quốc Oai",
+    "code": "QO",
+    "province_id": "01"
+  },
+  {
+    "id": "276",
+    "name": "Thạch Thất",
+    "code": "TT",
+    "province_id": "01"
+  },
+  {
+    "id": "277",
+    "name": "Chương Mỹ",
+    "code": "CM",
+    "province_id": "01"
+  },
+  {
+    "id": "278",
+    "name": "Thanh Oai",
+    "code": "TO",
+    "province_id": "01"
+  },
+  {
+    "id": "279",
+    "name": "Thường Tín",
+    "code": "TT",
+    "province_id": "01"
+  },
+  {
+    "id": "280",
+    "name": "Phú Xuyên",
+    "code": "PX",
+    "province_id": "01"
+  },
+  {
+    "id": "281",
+    "name": "Ứng Hòa",
+    "code": "UH",
+    "province_id": "01"
+  },
+  {
+    "id": "282",
+    "name": "Mỹ Đức",
+    "code": "MD",
+    "province_id": "01"
+  }
+]

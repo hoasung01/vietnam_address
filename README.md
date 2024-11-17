@@ -1,35 +1,123 @@
-# VietnamAddress
+# Vietnam Address
 
-TODO: Delete this and the text below, and describe your gem
+A Ruby gem providing comprehensive data and utilities for Vietnamese administrative divisions (Provinces, Districts, and Wards).
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vietnam_address`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Features
+
+- Complete list of Vietnamese provinces, districts, and wards
+- Easy-to-use API for accessing administrative data
+- Hierarchical data structure
+- Rails form helpers for address selection
+- JSON data format
+- Lightweight and performant
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Add this line to your application's Gemfile:
 
-Install the gem and add to the application's Gemfile by executing:
+```ruby
+gem 'vietnam_address'
+```
+And then execute:
+```bash
+bundle install
+```
+Or install it yourself as:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```bash
+gem install vietnam_address
+```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Usage
+Basic Usage
+```ruby
+# Get all provinces
+provinces = VietnamAddress::Data::Structure.provinces
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+# Get specific province with districts
+hanoi = VietnamAddress::Data::Structure.load_province('01')
 
-## Usage
+# Get districts of a province
+hanoi_districts = VietnamAddress::Data::Structure.districts('01')
 
-TODO: Write usage instructions here
+# Get wards of a district
+wards = VietnamAddress::Data::Structure.wards('01', '001')
+```
 
-## Development
+In Rails Forms
+```erb
+<%= form_for @address do |f| %>
+  <%= province_select f %>
+  <%= district_select f, @address.province_id %>
+  <%= ward_select f, @address.district_id %>
+<% end %>
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+With JavaScript for Dynamic Updates
+```javascript
+$(document).on('change', '#address_province_id', function() {
+  var province_id = $(this).val();
+  $.get('/districts', { province_id: province_id }, function(data) {
+    $('#address_district_id').html(data);
+  });
+});
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+$(document).on('change', '#address_district_id', function() {
+  var district_id = $(this).val();
+  $.get('/wards', { district_id: district_id }, function(data) {
+    $('#address_ward_id').html(data);
+  });
+});
+```
 
-## Contributing
+Configuration
+```ruby
+# config/initializers/vietnam_address.rb
+VietnamAddress.configure do |config|
+  config.data_path = Rails.root.join('data', 'vietnam_address')
+end
+```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/vietnam_address. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/vietnam_address/blob/master/CODE_OF_CONDUCT.md).
+Data Structure
+```json{
+  "provinces": {
+    "01": {
+      "info": {
+        "id": "01",
+        "name": "Hà Nội",
+        "code": "HN"
+      },
+      "districts": {
+        "001": {
+          "id": "001",
+          "name": "Ba Đình",
+          "code": "BD",
+          "wards": {
+            "00001": {
+              "id": "00001",
+              "name": "Phúc Xá",
+              "code": "PX"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+Development
+After checking out the repo, run bin/setup to install dependencies. You can also run bin/console for an interactive prompt that will allow you to experiment.
+To install this gem onto your local machine, run bundle exec rake install.
+Contributing
 
-## Code of Conduct
+Fork it
+Create your feature branch (git checkout -b feature/my-new-feature)
+Commit your changes (git commit -am 'Add some feature')
+Push to the branch (git push origin feature/my-new-feature)
+Create a new Pull Request
 
-Everyone interacting in the VietnamAddress project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/vietnam_address/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/vietnam_address.
+License
+The gem is available as open source under the terms of the MIT License.
+Code of Conduct
+Everyone interacting in the VietnamAddress project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
