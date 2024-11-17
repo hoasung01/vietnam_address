@@ -15,10 +15,6 @@ module VietnamAddress
         all.find { |province| province.name == name }
       end
 
-      def reset!
-        @provinces = nil
-      end
-
       private
 
       def load_provinces

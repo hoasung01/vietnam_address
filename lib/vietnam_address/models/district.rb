@@ -19,10 +19,6 @@ module VietnamAddress
         all.select { |district| district.province_id == province_id }
       end
 
-      def reset!
-        @districts = nil
-      end
-
       private
 
       def load_districts
