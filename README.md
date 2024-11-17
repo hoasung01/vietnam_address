@@ -26,45 +26,38 @@ $ bundle install
 
 ## Usage
 
-### Basic Usage
-
+### Getting Provinces
 ```ruby
-# Provinces
-VietnamAddress::Province.all
-# Returns:
-# [
-#   #<VietnamAddress::Province id="01" name="Hà Nội" code="HN" location="ha-noi">,
-#   ...
-# ]
+# Get all provinces
+provinces = VietnamAddress::Province.all
 
-# Find province
-hanoi = VietnamAddress::Province.find_by_id('01')
-hanoi = VietnamAddress::Province.find_by_name('Hà Nội')
+# Find a specific province
+province = VietnamAddress::Province.find_by_id('32')
+province = VietnamAddress::Province.find_by_name('Khánh Hòa')
+province = VietnamAddress::Province.find_by_slug('khanhhoa')
+```
 
-# Get districts of a province
-hanoi.districts 
-# Returns:
-# [
-#   #<VietnamAddress::District id="001" name="Ba Đình" code="BD" province_id="01">,
-#   ...
-# ]
+### Getting Districts
+```ruby
+# Get all districts of a province
+districts = province.districts
+```
 
-# Districts
-districts = VietnamAddress::District.all
-district = VietnamAddress::District.find_by_id('001')
-district = VietnamAddress::District.find_by_name('Ba Đình')
-district.province # Returns province object
+### Getting Wards
+```ruby
+# Get all wards of a specific district
+district = province.districts.first
+wards = district.wards
+```
 
-# Find districts by province
-hanoi_districts = VietnamAddress::District.find_by_province_id('01')
+### Associations
+```ruby
+# District associations
+district.province  # Returns associated province
 
-# Wards
-wards = VietnamAddress::Ward.find_by_district_id('001')
-# Returns:
-# [
-#   #<VietnamAddress::Ward id="001" name="Cam Phước Đông" code="CPD" district_id="001" province_id="32">,
-#   ...
-# ]
+# Ward associations
+ward.district   # Returns associated district
+ward.
 ```
 
 ### Data Structure
