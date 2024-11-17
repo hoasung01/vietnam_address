@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["hainguyen"]
   spec.email = ["nguyenngochai.shipagent@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Vietnamese address helper for Rails"
+  spec.description = "Provides provinces, cities, and wards data for Vietnam"
+  spec.homepage = "https://github.com/hoasung01/vietnam_address"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
