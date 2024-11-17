@@ -2,8 +2,6 @@
 
 A Ruby gem providing comprehensive data and utilities for Vietnamese administrative divisions (Provinces, Districts, and Wards).
 
-[![Gem Version](https://badge.fury.io/rb/vietnam_address.svg)](https://badge.fury.io/rb/vietnam_address)
-
 ## Features
 
 ✨ Complete list of Vietnamese provinces and districts  
