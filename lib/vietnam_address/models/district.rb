@@ -1,5 +1,3 @@
-require 'json'
-
 module VietnamAddress
   class District
     attr_reader :id, :name, :code, :province_id, :wards
