@@ -22,26 +22,23 @@ Then execute:
 $ bundle install
 ```
 
-## Configuration
+## Configuration (Optional)
 
-Create an initializer file `config/initializers/vietnam_address.rb`:
+By default, the gem will use its built-in data path: `Gem.loaded_specs['vietnam_address'].gem_dir + '/data'`
+
+If you want to override the default data path, create an initializer file `config/initializers/vietnam_address.rb`:
 
 ```ruby
+# config/initializers/vietnam_address.rb
+# Optional: Only needed if you want to use custom data location
 VietnamAddress.configure do |config|
   config.data_path = Rails.root.join('vendor/vietnam_address_data')
 end
 ```
 
-## Data Setup
-
-1. Create the data directory:
-```bash
-mkdir -p vendor/vietnam_address_data
+### Default Directory Structure
 ```
-
-2. Add your JSON data files following this structure:
-```
-vendor/vietnam_address_data/
+[GEM_ROOT]/data/
 ├── provinces.json
 └── khanhhoa/
     ├── districts.json
@@ -52,6 +49,25 @@ vendor/vietnam_address_data/
         │   └── wards.json
         └── ...
 ```
+
+### Custom Directory Structure (if configured)
+```
+[RAILS_ROOT]/vendor/vietnam_address_data/
+├── provinces.json
+└── khanhhoa/
+    ├── districts.json
+    └── districts/
+        ├── 001_camlam/
+        │   └── wards.json
+        ├── 002_camranh/
+        │   └── wards.json
+        └── ...
+```
+
+Note: The directory structure remains the same whether you use the default or custom path. Only configure a custom path if you need to:
+- Override the default data with your own data files
+- Store the data in a different location for your specific use case
+- Maintain separate data files for different environments
 
 ## Basic Usage
 
@@ -65,12 +81,28 @@ province = VietnamAddress::Province.find_by_id('32')
 province = VietnamAddress::Province.find_by_name('Khánh Hòa')
 # or
 province = VietnamAddress::Province.find_by_slug('khanhhoa')
+
+# Returns:
+# #<VietnamAddress::Province id: "32", name: "Khánh Hòa", code: "KH", slug: "khanhhoa">
 ```
 
 ### Getting Districts
 ```ruby
 # Get all districts of Khanh Hoa
 districts = province.districts
+
+# Returns:
+# [
+#   #<VietnamAddress::District 
+#     id: "001", 
+#     name: "Cam Lâm", 
+#     code: "CL", 
+#     district_slug: "camlam",
+#     province_id: "32",
+#     province_slug: "khanhhoa"
+#   >,
+#   ...
+# ]
 ```
 
 ### Getting Wards
@@ -78,6 +110,18 @@ districts = province.districts
 # Get all wards of a specific district
 district = province.districts.first
 wards = district.wards
+
+# Returns:
+# [
+#   #<VietnamAddress::Ward 
+#     id: "001",
+#     name: "Cam Phước Đông",
+#     code: "CPD",
+#     district_id: "001",
+#     province_slug: "khanhhoa"
+#   >,
+#   ...
+# ]
 ```
 
 ### Associations
@@ -122,10 +166,25 @@ class LocationsController < ApplicationController
 end
 ```
 
+### Routes Configuration
+
+```ruby
+# config/routes.rb
+Rails.application.routes.draw do
+  resources :locations, only: [] do
+    collection do
+      get 'provinces'
+      get 'districts'
+      get 'wards'
+    end
+  end
+end
+```
+
 ### In Views
 
 ```erb
-# app/views/locations/index.html.erb
+<%# app/views/locations/index.html.erb %>
 
 <div class="location-selector">
   <div class="district-select">
@@ -153,7 +212,7 @@ end
 ### Form Integration
 
 ```erb
-# app/views/addresses/_form.html.erb
+<%# app/views/addresses/_form.html.erb %>
 
 <%= form_with(model: @address) do |f| %>
   <div class="field">
@@ -208,22 +267,6 @@ export default class extends Controller {
 }
 ```
 
-### Routes Configuration
-
-```ruby
-# config/routes.rb
-
-Rails.application.routes.draw do
-  resources :locations, only: [] do
-    collection do
-      get 'provinces'
-      get 'districts'
-      get 'wards'
-    end
-  end
-end
-```
-
 ### Model Integration (Optional)
 
 ```ruby
@@ -243,6 +286,14 @@ class Address < ApplicationRecord
 end
 ```
 
+## Important Notes
+
+1. Currently only supports Khanh Hoa province
+2. All data is loaded from JSON files
+3. Consider caching results if you need frequent access to the same data
+4. The gem provides read-only access to location data
+5. The data path configuration is optional - by default, it uses the gem's built-in data
+
 ## Development
 
 1. Clone the repo:
@@ -260,13 +311,6 @@ $ bundle install
 ```bash
 $ bin/console
 ```
-
-## Important Notes
-
-1. Currently only supports Khanh Hoa province
-2. All data is loaded from JSON files
-3. Consider caching results if you need frequent access to the same data
-4. The gem provides read-only access to location data
 
 ## Contributing
 
