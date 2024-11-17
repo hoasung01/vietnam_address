@@ -25,6 +25,7 @@ $ bundle install
 ```
 
 ## Usage
+Currently supports Khanh Hoa province only.
 
 ### Getting Provinces
 ```ruby
