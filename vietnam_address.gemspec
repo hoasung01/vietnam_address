@@ -5,8 +5,8 @@ require_relative "lib/vietnam_address/version"
 Gem::Specification.new do |spec|
   spec.name = "vietnam_address"
   spec.version = VietnamAddress::VERSION
-  spec.authors = ["hainguyen-eh"]
-  spec.email = ["hai.nguyen@employmenthero.com"]
+  spec.authors = ["hainguyen"]
+  spec.email = ["nguyenngochai.shipagent@gmail.com"]
 
   spec.summary = "TODO: Write a short summary, because RubyGems requires one."
   spec.description = "TODO: Write a longer description or delete this line."
