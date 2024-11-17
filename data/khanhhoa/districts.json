@@ -3,54 +3,72 @@
     "id": "001",
     "name": "Cam Lâm",
     "code": "CL",
-    "province_id": "32"
+    "district_slug": "camlam",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "002",
     "name": "Cam Ranh",
     "code": "CR",
-    "province_id": "32"
+    "district_slug": "camranh",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "003",
     "name": "Nha Trang",
     "code": "NT",
-    "province_id": "32"
+    "district_slug": "nhatrang",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "004",
     "name": "Diên Khánh",
     "code": "DK",
-    "province_id": "32"
+    "district_slug": "dienkhanh",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "005",
     "name": "Khánh Vĩnh",
     "code": "KV",
-    "province_id": "32"
+    "district_slug": "khanhvinh",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "006",
     "name": "Khánh Sơn",
     "code": "KS",
-    "province_id": "32"
+    "district_slug": "khanhson",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "007",
     "name": "Trường Sa",
     "code": "TS",
-    "province_id": "32"
+    "district_slug": "truongsa",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "008",
     "name": "Vạn Ninh",
     "code": "VN",
-    "province_id": "32"
+    "district_slug": "vanninh",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   },
   {
     "id": "009",
     "name": "Ninh Hòa",
     "code": "NH",
-    "province_id": "32"
+    "district_slug": "ninhhoa",
+    "province_id": "32",
+    "province_slug": "khanhhoa"
   }
 ]
