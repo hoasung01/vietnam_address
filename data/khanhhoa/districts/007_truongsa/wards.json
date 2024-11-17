@@ -1,0 +1,30 @@
+[
+  {
+    "id": "001",
+    "name": "Sinh Tồn",
+    "code": "ST",
+    "district_id": "007",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Song Tử Tây",
+    "code": "STT",
+    "district_id": "007",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Trường Sa",
+    "code": "TS",
+    "district_id": "007",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Thổ Châu",
+    "code": "TC",
+    "district_id": "007",
+    "province_id": "32"
+  }
+]

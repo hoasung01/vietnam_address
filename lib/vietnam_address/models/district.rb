@@ -3,8 +3,13 @@ module VietnamAddress
     attr_reader :id, :name, :code, :province_id, :wards
 
     class << self
-      def all
-        @districts ||= load_districts
+      def load_districts(location)
+        data = read_json_file("#{location}/districts.json")
+        data.map { |attrs| new(attrs) }
+      rescue JSON::ParserError => e
+        raise Error, "Invalid JSON in districts.json for #{location}: #{e.message}"
+      rescue Errno::ENOENT
+        raise Error, "districts.json not found in #{data_path}/#{location}"
       end
 
       def find_by_id(id)
@@ -21,13 +26,8 @@ module VietnamAddress
 
       private
 
-      def load_districts
-        data = read_json_file('districts.json')
-        data.map { |attrs| new(attrs) }
-      rescue JSON::ParserError => e
-        raise Error, "Invalid JSON in districts.json: #{e.message}"
-      rescue Errno::ENOENT
-        raise Error, "districts.json not found in #{data_path}"
+      def all
+        @districts ||= load_districts(VietnamAddress.configuration.data_path)
       end
 
       def read_json_file(filename)
@@ -53,34 +53,24 @@ module VietnamAddress
       @province ||= Province.find_by_id(province_id)
     end
 
-    def ==(other)
-      other.class == self.class && other.id == id
-    end
-    alias eql? ==
-
-    def hash
-      [self.class, id].hash
-    end
-
-    def inspect
-      "#<#{self.class} id=#{id} name=#{name} code=#{code} province_id=#{province_id} wards=#{wards.size}>"
-    end
-    alias to_s inspect
-
     private
 
     def load_wards
-      return @wards if defined?(@wards)
+      data = read_json_file("#{province.location}/districts/#{id.to_s.rjust(3, '0')}_#{name.parameterize}/wards.json")
+      data.map { |w| Ward.new(w) }
+    rescue JSON::ParserError => e
+      raise Error, "Invalid JSON in wards.json for district #{id}: #{e.message}"
+    rescue Errno::ENOENT
+      raise Error, "wards.json not found for district #{id} in #{data_path}/#{province.location}/districts/#{id.to_s.rjust(3, '0')}_#{name.parameterize}"
+    end
 
-      begin
-        data = self.class.send(:read_json_file, 'wards.json')
-        data.select { |w| w['district_id'] == id }
-            .map { |w| Ward.new(w) }
-      rescue JSON::ParserError => e
-        raise Error, "Invalid JSON in wards.json: #{e.message}"
-      rescue Errno::ENOENT
-        raise Error, "wards.json not found in #{self.class.send(:data_path)}"
-      end
+    def read_json_file(filename)
+      file_path = File.join(data_path, filename)
+      JSON.parse(File.read(file_path))
+    end
+
+    def data_path
+      VietnamAddress.configuration.data_path
     end
 
     def validate_attributes!(attributes)

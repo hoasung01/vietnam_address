@@ -1,0 +1,56 @@
+[
+  {
+    "id": "001",
+    "name": "Cam Lâm",
+    "code": "CL",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Cam Ranh",
+    "code": "CR",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Nha Trang",
+    "code": "NT",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Diên Khánh",
+    "code": "DK",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Khánh Vĩnh",
+    "code": "KV",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Khánh Sơn",
+    "code": "KS",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Trường Sa",
+    "code": "TS",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Vạn Ninh",
+    "code": "VN",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Ninh Hòa",
+    "code": "NH",
+    "province_id": "32"
+  }
+]

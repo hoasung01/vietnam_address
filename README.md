@@ -33,7 +33,7 @@ $ bundle install
 VietnamAddress::Province.all
 # Returns:
 # [
-#   #<VietnamAddress::Province id="01" name="Hà Nội" code="HN">,
+#   #<VietnamAddress::Province id="01" name="Hà Nội" code="HN" location="ha-noi">,
 #   ...
 # ]
 
@@ -57,31 +57,30 @@ district.province # Returns province object
 
 # Find districts by province
 hanoi_districts = VietnamAddress::District.find_by_province_id('01')
+
+# Wards
+wards = VietnamAddress::Ward.find_by_district_id('001')
+# Returns:
+# [
+#   #<VietnamAddress::Ward id="001" name="Cam Phước Đông" code="CPD" district_id="001" province_id="32">,
+#   ...
+# ]
 ```
 
 ### Data Structure
+The data for the provinces, districts, and wards is organized in a directory structure based on the location (province/city). The default data path is Gem.loaded_specs['vietnam_address'].gem_dir + '/data', but it can be customized using the configuration.
 
-#### provinces.json
-```json
-[
-  {
-    "id": "01",
-    "name": "Hà Nội",
-    "code": "HN"
-  }
-]
 ```
-
-#### districts.json
-```json
-[
-  {
-    "id": "001",
-    "name": "Ba Đình",
-    "code": "BD",
-    "province_id": "01"
-  }
-]
+data
+├── khanhhoa
+│   ├── districts.json
+│   └── districts
+│       ├── 001_cam_lam
+│           wards.json
+│       ├── 002_cam_ranh
+│           wards.json
+│       # other Khanh Hoa district wards
+# other provinces/cities
 ```
 
 ### Rails Integration
@@ -97,6 +96,10 @@ hanoi_districts = VietnamAddress::District.find_by_province_id('01')
   <div class="form-group">
     <%= district_select f, @address.province_id %>
   </div>
+  
+  <div class="form-group">
+    <%= ward_select f, @address.district_id %>
+  </div>
 <% end %>
 ```
 
@@ -108,6 +111,14 @@ $(document).on('change', '#address_province_id', function() {
   const province_id = $(this).val();
   $.get('/districts', { province_id }, function(data) {
     $('#address_district_id').html(data);
+  });
+});
+
+// Update wards when district changes
+$(document).on('change', '#address_district_id', function() {
+  const district_id = $(this).val();
+  $.get('/wards', { district_id }, function(data) {
+    $('#address_ward_id').html(data);
   });
 });
 ```

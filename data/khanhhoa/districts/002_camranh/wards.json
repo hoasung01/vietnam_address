@@ -1,0 +1,37 @@
+[
+  {
+    "id": "001",
+    "name": "Cam Lập",
+    "code": "CL",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Cam Phú",
+    "code": "CP",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Cam Thuận",
+    "code": "CT",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Cam Thành Bắc",
+    "code": "CTB",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Cam Thành Nam",
+    "code": "CTN",
+    "district_id": "002",
+    "province_id": "32"
+  }
+]

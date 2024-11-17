@@ -1,0 +1,79 @@
+[
+  {
+    "id": "001",
+    "name": "Điện Thọ",
+    "code": "DT",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Điện Tiến",
+    "code": "DT",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Điện Phong",
+    "code": "DP",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Điện Hòa",
+    "code": "DH",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Điện Hồng",
+    "code": "DH",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Điện Môn",
+    "code": "DM",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Điện Đông",
+    "code": "DD",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Điện Nam",
+    "code": "DN",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Điện Trung",
+    "code": "DT",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "010",
+    "name": "Điện Bằng",
+    "code": "DB",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Điện Tân",
+    "code": "DT",
+    "district_id": "004",
+    "province_id": "32"
+  }
+]

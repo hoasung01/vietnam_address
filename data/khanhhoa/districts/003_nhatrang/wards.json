@@ -1,0 +1,93 @@
+[
+  {
+    "id": "001",
+    "name": "Vĩnh Hòa",
+    "code": "VH",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Vĩnh Phước",
+    "code": "VP",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Vĩnh Nguyên",
+    "code": "VN",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Phước Tiến",
+    "code": "PT",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Vĩnh Thạnh",
+    "code": "VT",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Vĩnh Trường",
+    "code": "VTR",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Vĩnh Đồng",
+    "code": "VD",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Vĩnh Lương",
+    "code": "VL",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Vĩnh Ngọc",
+    "code": "VN",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "010",
+    "name": "Vĩnh Thái",
+    "code": "VT",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Vĩnh Hiệp",
+    "code": "VH",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "012",
+    "name": "Vĩnh Phương",
+    "code": "VP",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Vĩnh Hoà",
+    "code": "VH",
+    "district_id": "003",
+    "province_id": "32"
+  }
+]

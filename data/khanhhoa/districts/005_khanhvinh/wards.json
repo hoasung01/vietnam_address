@@ -1,0 +1,51 @@
+[
+  {
+    "id": "001",
+    "name": "Khánh Hải",
+    "code": "KH",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Khánh Phú",
+    "code": "KP",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Khánh Đông",
+    "code": "KD",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Khánh Nam",
+    "code": "KN",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Khánh Thành",
+    "code": "KT",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Khánh Vân",
+    "code": "KV",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Khánh Hiệp",
+    "code": "KH",
+    "district_id": "005",
+    "province_id": "32"
+  }
+]

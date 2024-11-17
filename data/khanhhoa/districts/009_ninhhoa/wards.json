@@ -1,0 +1,65 @@
+[
+  {
+    "id": "001",
+    "name": "Ninh Hiệp",
+    "code": "NH",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Ninh Hòa",
+    "code": "NH",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Ninh Thủy",
+    "code": "NT",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Ninh Tiến",
+    "code": "NT",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Ninh Phú",
+    "code": "NP",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Ninh Bình",
+    "code": "NB",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Ninh Đông",
+    "code": "ND",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Ninh Hải",
+    "code": "NH",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Ninh Xuân",
+    "code": "NX",
+    "district_id": "009",
+    "province_id": "32"
+  }
+]

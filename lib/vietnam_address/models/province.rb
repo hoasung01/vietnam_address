@@ -1,6 +1,7 @@
+# lib/vietnam_address/models/province.rb
 module VietnamAddress
   class Province
-    attr_reader :id, :name, :code, :districts
+    attr_reader :id, :name, :code, :location
 
     class << self
       def all
@@ -40,37 +41,11 @@ module VietnamAddress
       @id = attributes['id']
       @name = attributes['name']
       @code = attributes['code']
-      @districts = load_districts
+      @location = attributes['location'] || attributes['name'].parameterize
     end
 
-    private
-
-    def load_districts
-      return @districts if defined?(@districts)
-
-      begin
-        data = self.class.send(:read_json_file, 'districts.json')
-        data.select { |d| d['province_id'] == id }
-            .map { |d| District.new(d) }
-      rescue JSON::ParserError => e
-        raise Error, "Invalid JSON in districts.json: #{e.message}"
-      rescue Errno::ENOENT
-        raise Error, "districts.json not found in #{self.class.send(:data_path)}"
-      end
+    def districts
+      @districts ||= District.load_districts(location)
     end
-
-    def ==(other)
-      other.class == self.class && other.id == id
-    end
-    alias eql? ==
-
-    def hash
-      [self.class, id].hash
-    end
-
-    def inspect
-      "#<#{self.class} id=#{id} name=#{name} code=#{code} districts=#{districts.size}>"
-    end
-    alias to_s inspect
   end
 end
