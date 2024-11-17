@@ -58,7 +58,7 @@ district.province  # Returns associated province
 
 # Ward associations
 ward.district   # Returns associated district
-ward.
+ward.province   # Returns associated province
 ```
 
 ### Data Structure
