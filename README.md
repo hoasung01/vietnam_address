@@ -154,12 +154,6 @@ $ bin/console
 
 This gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## Author
-
-👤 **Hai Nguyen**
-
-* GitHub: [@hoasung01](https://github.com/hoasung01)
-
 ## Support
 
 ⭐️ If you like this project, please give it a star on GitHub! ⭐️
