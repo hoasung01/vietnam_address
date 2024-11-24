@@ -1,6 +1,6 @@
 module VietnamAddress
   class District
-    attr_reader :id, :name, :code, :district_slug, :province_id, :province_slug, :wards
+    attr_reader :id, :name, :district_slug, :province_id, :province_slug, :wards
 
     class << self
       def load_districts(province_slug)
@@ -21,7 +21,6 @@ module VietnamAddress
     def initialize(attributes = {})
       @id = attributes['id']
       @name = attributes['name']
-      @code = attributes['code']
       @district_slug = attributes['district_slug']
       @province_id = attributes['province_id']
       @province_slug = attributes['province_slug']
@@ -45,7 +44,7 @@ module VietnamAddress
     end
 
     def validate_attributes!
-      %w[id name code district_slug province_id province_slug].each do |attr|
+      %w[id name district_slug province_id province_slug].each do |attr|
         raise ArgumentError, "Missing #{attr}" if instance_variable_get("@#{attr}").nil?
       end
     end

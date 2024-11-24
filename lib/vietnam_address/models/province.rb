@@ -1,6 +1,6 @@
 module VietnamAddress
   class Province
-    attr_reader :id, :name, :code, :slug
+    attr_reader :id, :name, :slug
 
     class << self
       def all
@@ -39,7 +39,6 @@ module VietnamAddress
     def initialize(attributes = {})
       @id = attributes['id']
       @name = attributes['name']
-      @code = attributes['code']
       @slug = attributes['slug']
     end
 
