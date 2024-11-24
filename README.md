@@ -83,7 +83,7 @@ province = VietnamAddress::Province.find_by_name('Khánh Hòa')
 province = VietnamAddress::Province.find_by_slug('khanhhoa')
 
 # Returns:
-# #<VietnamAddress::Province id: "32", name: "Khánh Hòa", code: "KH", slug: "khanhhoa">
+# #<VietnamAddress::Province id: "32", name: "Khánh Hòa", slug: "khanhhoa">
 ```
 
 ### Getting Districts
@@ -96,7 +96,6 @@ districts = province.districts
 #   #<VietnamAddress::District 
 #     id: "001", 
 #     name: "Cam Lâm", 
-#     code: "CL", 
 #     district_slug: "camlam",
 #     province_id: "32",
 #     province_slug: "khanhhoa"
@@ -116,7 +115,6 @@ wards = district.wards
 #   #<VietnamAddress::Ward 
 #     id: "001",
 #     name: "Cam Phước Đông",
-#     code: "CPD",
 #     district_id: "001",
 #     province_slug: "khanhhoa"
 #   >,
@@ -191,7 +189,7 @@ end
     <h3>Districts in Khanh Hoa:</h3>
     <ul>
       <% @province.districts.each do |district| %>
-        <li><%= district.name %> (<%= district.code %>)</li>
+        <li><%= district.name %> (<%= district.id %>)</li>
       <% end %>
     </ul>
   </div>
@@ -201,7 +199,7 @@ end
       <h3>Wards in <%= @district.name %>:</h3>
       <ul>
         <% @district.wards.each do |ward| %>
-          <li><%= ward.name %> (<%= ward.code %>)</li>
+          <li><%= ward.name %> (<%= ward.id %>)</li>
         <% end %>
       </ul>
     </div>
