@@ -1,36 +1,91 @@
 [
   {
     "id": "001",
-    "name": "Cam Lập",
-    "code": "CL",
+    "name": "Phường Ba Ngòi",
     "district_id": "002",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Cam Phú",
-    "code": "CP",
+    "name": "Phường Cam Lộc",
     "district_id": "002",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Cam Thuận",
-    "code": "CT",
+    "name": "Phường Cam Nghĩa",
     "district_id": "002",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Cam Thành Bắc",
-    "code": "CTB",
+    "name": "Phường Cam Phúc Bắc",
     "district_id": "002",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Cam Thành Nam",
-    "code": "CTN",
+    "name": "Phường Cam Thuận",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Xã Cam Lập",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Xã Cam Thành Nam",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Xã Cam Thịnh Tây",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Phường Cam Linh",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "010",
+    "name": "Phường Cam Lợi",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Phường Cam Phú",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "012",
+    "name": "Phường Cam Phúc Nam",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Xã Cam Bình",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Cam Phước Đông",
+    "district_id": "002",
+    "province_id": "32"
+  },
+  {
+    "id": "015",
+    "name": "Xã Cam Thịnh Đông",
     "district_id": "002",
     "province_id": "32"
   }

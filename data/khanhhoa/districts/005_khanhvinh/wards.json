@@ -1,50 +1,85 @@
 [
   {
     "id": "001",
-    "name": "Khánh Hải",
-    "code": "KH",
+    "name": "Thị trấn Khánh Vĩnh",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Khánh Phú",
-    "code": "KP",
+    "name": "Xã Giang Ly",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Khánh Đông",
-    "code": "KD",
+    "name": "Xã Khánh Đông",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Khánh Nam",
-    "code": "KN",
+    "name": "Xã Khánh Nam",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Khánh Thành",
-    "code": "KT",
+    "name": "Xã Khánh Thành",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Khánh Vân",
-    "code": "KV",
+    "name": "Xã Khánh Trung",
     "district_id": "005",
     "province_id": "32"
   },
   {
     "id": "007",
-    "name": "Khánh Hiệp",
-    "code": "KH",
+    "name": "Xã Sơn Thái",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Xã Cầu Bà",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Xã Khánh Bình",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "010",
+    "name": "Xã Khánh Hiệp",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Xã Khánh Phú",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "012",
+    "name": "Xã Khánh Thượng",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Xã Liên Sang",
+    "district_id": "005",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Sông Cầu",
     "district_id": "005",
     "province_id": "32"
   }

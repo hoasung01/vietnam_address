@@ -1,78 +1,111 @@
 [
   {
     "id": "001",
-    "name": "Điện Thọ",
-    "code": "DT",
+    "name": "Thị trấn Diên Khánh",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Điện Tiến",
-    "code": "DT",
+    "name": "Xã Diên An",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Điện Phong",
-    "code": "DP",
+    "name": "Xã Diên Đồng",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Điện Hòa",
-    "code": "DH",
+    "name": "Xã Diên Lạc",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Điện Hồng",
-    "code": "DH",
+    "name": "Xã Diên Phú",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Điện Môn",
-    "code": "DM",
+    "name": "Xã Diên Sơn",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "007",
-    "name": "Điện Đông",
-    "code": "DD",
+    "name": "Xã Diên Thạnh",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "008",
-    "name": "Điện Nam",
-    "code": "DN",
+    "name": "Xã Diên Toàn",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "009",
-    "name": "Điện Trung",
-    "code": "DT",
+    "name": "Xã Suối Hiệp",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "010",
-    "name": "Điện Bằng",
-    "code": "DB",
+    "name": "Xã Bình Lộc",
     "district_id": "004",
     "province_id": "32"
   },
   {
     "id": "011",
-    "name": "Điện Tân",
-    "code": "DT",
+    "name": "Xã Diên Điền",
+    "district_id": "004",
+    "province_id": "32"
+  }
+  ,
+  {
+    "id": "012",
+    "name": "Xã Diên Hòa",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Xã Diên Lâm",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Diên Phước",
+    "district_id": "004",
+    "province_id": "32"
+  }
+  ,
+  {
+    "id": "015",
+    "name": "Xã Diên Tân",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "016",
+    "name": "Xã Diên Thọ",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "017",
+    "name": "Xã Diên Xuân",
+    "district_id": "004",
+    "province_id": "32"
+  },
+  {
+    "id": "018",
+    "name": "Xã Suối Tiên",
     "district_id": "004",
     "province_id": "32"
   }

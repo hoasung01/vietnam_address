@@ -1,92 +1,163 @@
 [
   {
     "id": "001",
-    "name": "Vĩnh Hòa",
-    "code": "VH",
+    "name": "Phường Lộc Thọ",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Vĩnh Phước",
-    "code": "VP",
+    "name": "Phường Phước Hải",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Vĩnh Nguyên",
-    "code": "VN",
+    "name": "Phường Phước Long",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Phước Tiến",
-    "code": "PT",
+    "name": "Phường Phước Tiến",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Vĩnh Thạnh",
-    "code": "VT",
+    "name": "Phường Phương Sơn",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Vĩnh Trường",
-    "code": "VTR",
+    "name": "Phường Vạn Thắng",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "007",
-    "name": "Vĩnh Đồng",
-    "code": "VD",
+    "name": "Phường Vĩnh Hải",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "008",
-    "name": "Vĩnh Lương",
-    "code": "VL",
+    "name": "Phường Vĩnh Nguyên",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "009",
-    "name": "Vĩnh Ngọc",
-    "code": "VN",
+    "name": "Phường Vĩnh Thọ",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "010",
-    "name": "Vĩnh Thái",
-    "code": "VT",
+    "name": "Phường Xương Huân",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "011",
-    "name": "Vĩnh Hiệp",
-    "code": "VH",
+    "name": "Xã Vĩnh Hiệp",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "012",
-    "name": "Vĩnh Phương",
-    "code": "VP",
+    "name": "Xã Vĩnh Ngọc",
     "district_id": "003",
     "province_id": "32"
   },
   {
     "id": "013",
-    "name": "Vĩnh Hoà",
-    "code": "VH",
+    "name": "Xã Vĩnh Thái",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Vĩnh Trung",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "015",
+    "name": "Phường Ngọc Hiệp",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "016",
+    "name": "Phường Phước Hòa",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "017",
+    "name": "Phường Phước Tân",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "018",
+    "name": "Phường Phương Sài",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "019",
+    "name": "Phường Tân Lập",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "020",
+    "name": "Phường Vạn Thạnh",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "021",
+    "name": "Phường Vĩnh Hoà",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "022",
+    "name": "Phường Vĩnh Phước",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "023",
+    "name": "Phường Vĩnh Trường",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "024",
+    "name": "Xã Phước Đồng",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "025",
+    "name": "Xã Vĩnh Lương",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "026",
+    "name": "Xã Vĩnh Phương",
+    "district_id": "003",
+    "province_id": "32"
+  },
+  {
+    "id": "027",
+    "name": "Xã Vĩnh Thạnh",
     "district_id": "003",
     "province_id": "32"
   }

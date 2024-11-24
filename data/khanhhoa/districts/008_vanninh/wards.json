@@ -1,57 +1,79 @@
 [
   {
     "id": "001",
-    "name": "Ninh Hà",
-    "code": "NH",
+    "name": "Thị trấn Vạn Giã",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Ninh Phước",
-    "code": "NP",
+    "name": "Xã Vạn Bình",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Ninh An",
-    "code": "NA",
+    "name": "Xã Vạn Khánh",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Ninh Thuận",
-    "code": "NT",
+    "name": "Xã Vạn Lương",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Ninh Tây",
-    "code": "NT",
+    "name": "Xã Vạn Phước",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Ninh Thọ",
-    "code": "NT",
+    "name": "Xã Vạn Thạnh",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "007",
-    "name": "Ninh Quang",
-    "code": "NQ",
+    "name": "Xã Xuân Sơn",
     "district_id": "008",
     "province_id": "32"
   },
   {
     "id": "008",
-    "name": "Ninh Xuân",
-    "code": "NX",
+    "name": "Xã Đại Lãnh",
+    "district_id": "008",
+    "province_id": "32"
+  },
+  {
+    "id": "001",
+    "name": "Xã Vạn Hưng",
+    "district_id": "008",
+    "province_id": "32"
+  },
+  {
+    "id": "002",
+    "name": "Xã Vạn Long",
+    "district_id": "008",
+    "province_id": "32"
+  },
+  {
+    "id": "003",
+    "name": "Xã Vạn Phú",
+    "district_id": "008",
+    "province_id": "32"
+  },
+  {
+    "id": "004",
+    "name": "Xã Vạn Thắng",
+    "district_id": "008",
+    "province_id": "32"
+  },
+  {
+    "id": "005",
+    "name": "Xã Vạn Thọ",
     "district_id": "008",
     "province_id": "32"
   }

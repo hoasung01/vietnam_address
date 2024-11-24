@@ -2,379 +2,316 @@
   {
     "id": "01",
     "name": "Hà Nội",
-    "code": "HN",
     "slug": "hanoi"
   },
   {
     "id": "02",
     "name": "Hồ Chí Minh",
-    "code": "HCM",
     "slug": "hochiminh"
   },
   {
     "id": "03",
     "name": "Đà Nẵng",
-    "code": "DN",
     "slug": "danang"
   },
   {
     "id": "04",
     "name": "Hải Phòng",
-    "code": "HP",
     "slug": "haiphong"
   },
   {
     "id": "05",
     "name": "Cần Thơ",
-    "code": "CT",
     "slug": "cantho"
   },
   {
     "id": "06",
     "name": "An Giang",
-    "code": "AG",
     "slug": "angiang"
   },
   {
     "id": "07",
     "name": "Bà Rịa - Vũng Tàu",
-    "code": "BV",
     "slug": "bariavungtau"
   },
   {
     "id": "08",
     "name": "Bắc Giang",
-    "code": "BG",
     "slug": "bacgiang"
   },
   {
     "id": "09",
     "name": "Bắc Kạn",
-    "code": "BK",
     "slug": "backan"
   },
   {
     "id": "10",
     "name": "Bạc Liêu",
-    "code": "BL",
     "slug": "baclieu"
   },
   {
     "id": "11",
     "name": "Bắc Ninh",
-    "code": "BN",
     "slug": "bacninh"
   },
   {
     "id": "12",
     "name": "Bến Tre",
-    "code": "BT",
     "slug": "bentre"
   },
   {
     "id": "13",
     "name": "Bình Định",
-    "code": "BD",
     "slug": "binhdinh"
   },
   {
     "id": "14",
     "name": "Bình Dương",
-    "code": "BH",
     "slug": "binhduong"
   },
   {
     "id": "15",
     "name": "Bình Phước",
-    "code": "BP",
     "slug": "binhphuoc"
   },
   {
     "id": "16",
     "name": "Bình Thuận",
-    "code": "BTH",
     "slug": "binhthuan"
   },
   {
     "id": "17",
     "name": "Cà Mau",
-    "code": "CM",
     "slug": "camau"
   },
   {
     "id": "18",
     "name": "Cao Bằng",
-    "code": "CB",
     "slug": "caobang"
   },
   {
     "id": "19",
     "name": "Đắk Lắk",
-    "code": "DL",
     "slug": "daklak"
   },
   {
     "id": "20",
     "name": "Đắk Nông",
-    "code": "DNO",
     "slug": "daknong"
   },
   {
     "id": "21",
     "name": "Điện Biên",
-    "code": "DB",
     "slug": "dienbien"
   },
   {
     "id": "22",
     "name": "Đồng Nai",
-    "code": "DNA",
     "slug": "dongnai"
   },
   {
     "id": "23",
     "name": "Đồng Tháp",
-    "code": "DT",
     "slug": "dongthap"
   },
   {
     "id": "24",
     "name": "Gia Lai",
-    "code": "GL",
     "slug": "gialai"
   },
   {
     "id": "25",
     "name": "Hà Giang",
-    "code": "HG",
     "slug": "hagiang"
   },
   {
     "id": "26",
     "name": "Hà Nam",
-    "code": "HNA",
     "slug": "hanam"
   },
   {
     "id": "27",
     "name": "Hà Tĩnh",
-    "code": "HT",
     "slug": "hatinh"
   },
   {
     "id": "28",
     "name": "Hải Dương",
-    "code": "HD",
     "slug": "haiduong"
   },
   {
     "id": "29",
     "name": "Hậu Giang",
-    "code": "HGI",
     "slug": "haugiang"
   },
   {
     "id": "30",
     "name": "Hòa Bình",
-    "code": "HB",
     "slug": "hoabinh"
   },
   {
     "id": "31",
     "name": "Hưng Yên",
-    "code": "HY",
     "slug": "hungyen"
   },
   {
     "id": "32",
     "name": "Khánh Hòa",
-    "code": "KH",
     "slug": "khanhhoa"
   },
   {
     "id": "33",
     "name": "Kiên Giang",
-    "code": "KG",
     "slug": "kiengiang"
   },
   {
     "id": "34",
     "name": "Kon Tum",
-    "code": "KT",
     "slug": "kontum"
   },
   {
     "id": "35",
     "name": "Lai Châu",
-    "code": "LC",
     "slug": "laichau"
   },
   {
     "id": "36",
     "name": "Lâm Đồng",
-    "code": "LD",
     "slug": "lamdong"
   },
   {
     "id": "37",
     "name": "Lạng Sơn",
-    "code": "LS",
     "slug": "langson"
   },
   {
     "id": "38",
     "name": "Lào Cai",
-    "code": "LCA",
     "slug": "laocai"
   },
   {
     "id": "39",
     "name": "Long An",
-    "code": "LA",
     "slug": "longan"
   },
   {
     "id": "40",
     "name": "Nam Định",
-    "code": "ND",
     "slug": "namdinh"
   },
   {
     "id": "41",
     "name": "Nghệ An",
-    "code": "NA",
     "slug": "nghean"
   },
   {
     "id": "42",
     "name": "Ninh Bình",
-    "code": "NB",
     "slug": "ninhbinh"
   },
   {
     "id": "43",
     "name": "Ninh Thuận",
-    "code": "NT",
     "slug": "ninhthuan"
   },
   {
     "id": "44",
     "name": "Phú Thọ",
-    "code": "PT",
     "slug": "phutho"
   },
   {
     "id": "45",
     "name": "Phú Yên",
-    "code": "PY",
     "slug": "phuyen"
   },
   {
     "id": "46",
     "name": "Quảng Bình",
-    "code": "QB",
     "slug": "quangbinh"
   },
   {
     "id": "47",
     "name": "Quảng Nam",
-    "code": "QNA",
     "slug": "quangnam"
   },
   {
     "id": "48",
     "name": "Quảng Ngãi",
-    "code": "QNG",
     "slug": "quangngai"
   },
   {
     "id": "49",
     "name": "Quảng Ninh",
-    "code": "QNI",
     "slug": "quangninh"
   },
   {
     "id": "50",
     "name": "Quảng Trị",
-    "code": "QT",
     "slug": "quangtri"
   },
   {
     "id": "51",
     "name": "Sóc Trăng",
-    "code": "ST",
     "slug": "soctrang"
   },
   {
     "id": "52",
     "name": "Sơn La",
-    "code": "SL",
     "slug": "sonla"
   },
   {
     "id": "53",
     "name": "Tây Ninh",
-    "code": "TN",
     "slug": "tayninh"
   },
   {
     "id": "54",
     "name": "Thái Bình",
-    "code": "TB",
     "slug": "thaibinh"
   },
   {
     "id": "55",
     "name": "Thái Nguyên",
-    "code": "TNG",
     "slug": "thainguyen"
   },
   {
     "id": "56",
     "name": "Thanh Hóa",
-    "code": "TH",
     "slug": "thanhhoa"
   },
   {
     "id": "57",
     "name": "Thừa Thiên Huế",
-    "code": "TTH",
     "slug": "thuathienhue"
   },
   {
     "id": "58",
     "name": "Tiền Giang",
-    "code": "TG",
     "slug": "tiengiang"
   },
   {
     "id": "59",
     "name": "Trà Vinh",
-    "code": "TV",
     "slug": "travinh"
   },
   {
     "id": "60",
     "name": "Tuyên Quang",
-    "code": "TQ",
     "slug": "tuyenquang"
   },
   {
     "id": "61",
     "name": "Vĩnh Long",
-    "code": "VL",
     "slug": "vinhlong"
   },
   {
     "id": "62",
     "name": "Vĩnh Phúc",
-    "code": "VP",
     "slug": "vinhphuc"
   },
   {
     "id": "63",
     "name": "Yên Bái",
-    "code": "YB",
     "slug": "yenbai"
   }
 ]

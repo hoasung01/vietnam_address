@@ -1,64 +1,169 @@
 [
   {
     "id": "001",
-    "name": "Ninh Hiệp",
-    "code": "NH",
+    "name": "Phường Ninh Đa",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Ninh Hòa",
-    "code": "NH",
+    "name": "Phường Ninh Giang",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Ninh Thủy",
-    "code": "NT",
+    "name": "Phường Ninh Hải",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Ninh Tiến",
-    "code": "NT",
+    "name": "Phường Ninh Thủy",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Ninh Phú",
-    "code": "NP",
+    "name": "Xã Ninh An",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Ninh Bình",
-    "code": "NB",
+    "name": "Xã Ninh Đông",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "007",
-    "name": "Ninh Đông",
-    "code": "ND",
+    "name": "Xã Ninh ích",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "008",
-    "name": "Ninh Hải",
-    "code": "NH",
+    "name": "Xã Ninh Phú",
     "district_id": "009",
     "province_id": "32"
   },
   {
     "id": "009",
-    "name": "Ninh Xuân",
-    "code": "NX",
+    "name": "Xã Ninh Phước",
+    "district_id": "009",
+    "province_id": "32"
+  },
+    {
+    "id": "010",
+    "name": "Xã Ninh Sim",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Xã Ninh Tân",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "012",
+    "name": "Xã Ninh Thân",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Xã Ninh Thượng",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Ninh Vân",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "015",
+    "name": "Phường Ninh Diêm",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "016",
+    "name": "Phường Ninh Hà",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "017",
+    "name": "Phường Ninh Hiệp",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "018",
+    "name": "Thị trấn Ninh Hòa",
+    "district_id": "009",
+    "province_id": "32"
+  },
+    {
+    "id": "019",
+    "name": "Xã Ninh Bình",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "020",
+    "name": "Xã Ninh Hưng",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "021",
+    "name": "Xã Ninh Lộc",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "022",
+    "name": "Xã Ninh Phụng",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "023",
+    "name": "Xã Ninh Quang",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "024",
+    "name": "Xã Ninh Sơn",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "025",
+    "name": "Xã Ninh Tây",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "026",
+    "name": "Xã Ninh Thọ",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "027",
+    "name": "Xã Ninh Trung",
+    "district_id": "009",
+    "province_id": "32"
+  },
+  {
+    "id": "028",
+    "name": "Xã Ninh Xuân",
     "district_id": "009",
     "province_id": "32"
   }

@@ -1,29 +1,19 @@
 [
   {
     "id": "001",
-    "name": "Sinh Tồn",
-    "code": "ST",
+    "name": "Xã Sinh Tồn",
     "district_id": "007",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Song Tử Tây",
-    "code": "STT",
+    "name": "Xã Song Tử Tây",
     "district_id": "007",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Trường Sa",
-    "code": "TS",
-    "district_id": "007",
-    "province_id": "32"
-  },
-  {
-    "id": "004",
-    "name": "Thổ Châu",
-    "code": "TC",
+    "name": "Thị Trấn Trường Sa",
     "district_id": "007",
     "province_id": "32"
   }

@@ -1,36 +1,85 @@
 [
   {
     "id": "001",
-    "name": "Cam Phước Đông",
-    "code": "CPD",
+    "name": "Thị trấn Cam Đức",
     "district_id": "001",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Cam Thuỷ",
-    "code": "CT",
+    "name": "Xã Cam An Nam",
     "district_id": "001",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Cam Tân",
-    "code": "CT",
+    "name": "Xã Cam Hải Tây",
     "district_id": "001",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Cam Hải Đông",
-    "code": "CHD",
+    "name": "Xã Cam Hiệp Nam",
     "district_id": "001",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Cam Hải Tây",
-    "code": "CHT",
+    "name": "Xã Cam Phước Tây",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "006",
+    "name": "Xã Cam Thành Bắc",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Xã Suối Cát",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Xã Cam An Bắc",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "009",
+    "name": "Xã Cam Hải Đông",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "010",
+    "name": "Xã Cam Hiệp Bắc",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "011",
+    "name": "Xã Cam Hòa",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "012",
+    "name": "Xã Cam Tân",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "013",
+    "name": "Xã Sơn Tân",
+    "district_id": "001",
+    "province_id": "32"
+  },
+  {
+    "id": "014",
+    "name": "Xã Suối Tân",
     "district_id": "001",
     "province_id": "32"
   }

@@ -1,43 +1,49 @@
 [
   {
     "id": "001",
-    "name": "Khánh Đông",
-    "code": "KD",
+    "name": "Thị trấn Tô Hạp",
     "district_id": "006",
     "province_id": "32"
   },
   {
     "id": "002",
-    "name": "Khánh Hiệp",
-    "code": "KH",
+    "name": "Xã Ba Cụm Nam",
     "district_id": "006",
     "province_id": "32"
   },
   {
     "id": "003",
-    "name": "Khánh Nam",
-    "code": "KN",
+    "name": "Xã Sơn Hiệp",
     "district_id": "006",
     "province_id": "32"
   },
   {
     "id": "004",
-    "name": "Khánh Sơn",
-    "code": "KS",
+    "name": "Xã Sơn Trung",
     "district_id": "006",
     "province_id": "32"
   },
   {
     "id": "005",
-    "name": "Khánh Thượng",
-    "code": "KT",
+    "name": "Xã Ba Cụm Bắc",
     "district_id": "006",
     "province_id": "32"
   },
   {
     "id": "006",
-    "name": "Khánh Trung",
-    "code": "KT",
+    "name": "Xã Sơn Bình",
+    "district_id": "006",
+    "province_id": "32"
+  },
+  {
+    "id": "007",
+    "name": "Xã Sơn Lâm",
+    "district_id": "006",
+    "province_id": "32"
+  },
+  {
+    "id": "008",
+    "name": "Xã Thành Sơn",
     "district_id": "006",
     "province_id": "32"
   }
